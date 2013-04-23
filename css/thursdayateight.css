@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------------------------------*/
+/*MY STYLES*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*BASE*/
+/*------------------------------------------------------------------*/
+
+body {
+	/*background: transparent url("../images/background.png") no-repeat center;
+	background-size: 100% 100%;
+	background-attachment: fixed;*/
+	background-color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 28px;
+	color: #fff;
+}
+
+nav {
+	height: 100px;
+	padding: 0 100px;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 70px;
+	font-weight: bold;
+	margin: auto;
+	padding-top: 100px;
+}
+
+article {
+	height: 300px;
+	border-bottom: 1px solid #fff;
+	margin-top: 60px;
+}
+
+p {
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+p:first-of-type {
+	text-indent: 1.5em;
+}
+
+a[href^='https:'] {
+	background: transparent url("../images/lock.png") 0 50% no-repeat;
+}
+
+a[href*='http'] {
+	background: transparent url("../images/lock.png") 0 50% no-repeat;
+}
+
+.experiments a {
+	padding-left: 40px;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/*------------------------------------------------------------------*/
+/*NAV*/
+/*------------------------------------------------------------------*/
+
+.nav-list {
+	float: left;
+	margin: 10px;
+	list-style: none;
+}
+
+.nav-title {
+	color: #AB0F4E;
+	float: left;
+	font-weight: bold;
+	margin: 11px 0;
+}
+
+.pages {
+	float: right;
+}
+
+/*------------------------------------------------------------------*/
+/*CONTAINER*/
+/*------------------------------------------------------------------*/
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	position: relative; 
+	width: 960px; 
+}
+
+/*------------------------------------------------------------------*/
+/*HEADER*/
+/*------------------------------------------------------------------*/
+
+.headline {
+	float: right;
+	margin: auto;
+	width: 45%;
+}
+
+.photo {
+	float: left;
+	width: 50%;
+}
+
+/*------------------------------------------------------------------*/
+/*SECTION*/
+/*------------------------------------------------------------------*/
+
+.column {
+	float: left;  
+	margin: 20px 0;
+}
+
+.column-1 {
+	border-right: 1px solid #fff;
+	margin-left: 0;
+	padding-right: 20px;
+	width: 620px;
+}
+
+.column-2 {
+	margin-right: 0;
+	padding-left: 20px;
+	width: 280px;
+}
+
+.alert {
+	padding: 10px;
+	border: 1px solid #eee;
+	border-radius: 6px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 0 #999;
+}
+
+.alert-success {
+	background: radial-gradient(#1BA5E0, #2767F2);
+}
+
+.alert-warning {
+	background: radial-gradient(#ffff00, #ffdb00);
+	color: black;
+	margin: 10px 0;
+}
+
+.alert-error {
+	background: radial-gradient(#F22778, #b02c4b);
+	margin: 10px 0;
+}
+
+/*.blog {
+	margin: 20px 0;
+}*/
+
+.box {
+	border: 2px dashed #1BA5E0;
+	border-radius: 6px;
+	float: left;
+	margin: 0 5px;
+	padding: 20px;
+	position: relative;
+}
+
+.box-1 {
+	border: 5px solid #fff;
+}
+
+.box-2 {
+	left: -109px;
+	top: 100px;
+}
+
+.box-3 {
+	left: 150px;
+	position: absolute;
+	top: 1130px;
+}
+
+.box-4 {
+	background-color: #fff;
+	border: 5px solid #F22778;
+	color: black;
+	top: -50px;
+	z-index: top;	
+}
+
+
+
+/*.experiments {
+	margin: 20px 0;
+}*/
+
+
+
