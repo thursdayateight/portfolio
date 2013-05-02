@@ -333,6 +333,7 @@ a:after[href^='http'] {
 	.pages, .photo, .headline {
 		float: none;
 	}
+}	
 
 @media (max-width: 800px) {
 
@@ -344,3 +345,4 @@ a:after[href^='http'] {
 		margin: 10px 0;
 		padding: 0;
 	}	
+}	
