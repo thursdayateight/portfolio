@@ -335,7 +335,7 @@ a:after[href^='http'] {
 	}
 }	
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
 	.nav-title, .nav-list {
 		float: none;
