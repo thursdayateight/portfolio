@@ -1,0 +1,86 @@
+$font-base: 10px
+$font-family: 'Open Sans Condensed', sans-serif
+$white: #fff
+$pink: #AB0F4E
+$black: #000
+
+body
+	font: $font-base $font-family $white
+	background-color: $black
+
+.clearfix
+	*zoom: 1
+	&:before,
+	&:after,
+		content: ""
+		display: table
+	&:after
+		clear: both
+
+a
+	text-decoration: none
+	color: $white
+	font-size: $font-base*2.8
+
+h1, li
+	font-size: $font-base*2.8
+
+h2
+	font-size: $font-base*7
+	font-weight: bold
+	margin: auto
+	padding-top: 100px
+	color: $white
+
+img
+	@extend .clearfix
+
+nav
+	height: 100px
+	padding: 0 100px
+	margin: 20px
+
+p
+	font-size: $font-base*2.2
+	padding: 10px 0
+	color: $white
+
+.container
+	@extend .clearfix
+	margin: 0 auto
+	padding: 0
+	position: relative
+	width: 960px
+
+.headline
+	@extend .clearfix
+	float: right
+	margin: auto
+	width: 45%
+
+.nav-list
+	@extend .clearfix
+	float: left
+	margin: 10px
+	list-style: none
+
+.nav-title
+	@extend .clearfix
+	color: $pink
+	float: left
+	font-weight: bold
+	margin: 11px 0
+
+.pages
+	float: right
+
+.photo
+	@extend .clearfix
+	float: left
+	width: 50%	
+
+
+
+
+
+
